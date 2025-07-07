@@ -4,9 +4,15 @@ public class TypePromotion {
         // Type Promotion in Java
         // When we perform arithmetic operations on mixed data types, Java promotes the smaller data types to the larger data type.
         
+        // For example, if we add a byte and an int, the byte is promoted to an int before the addition.
+        // This is known as type promotion.
         byte byteValue = 10;
         short shortValue = 20;
         int intValue = 30;
+
+        // long, float, and double values
+        // are also included to demonstrate type promotion  
+
         long longValue = 40L;
         float floatValue = 50.5f;
         double doubleValue = 60.5;
